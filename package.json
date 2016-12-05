@@ -1,0 +1,11 @@
+{
+  "name": "insertion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insertiontest.js",
+  "scripts": {
+    "test": "mocha mergetest.js"
+  },
+  "author": "Jeannie Yamakawa <jkyamakawa@gmail.com>",
+  "license": "ISC"
+}
