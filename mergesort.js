@@ -19,9 +19,9 @@ var sorted ={
 
         //start of sub function recursion
         function mergeTogether(left,right,orig){
-            let i = 0;
-            let j = 0;
-            let k = 0;
+            let i = 0; //increments the left array
+            let j = 0; //increments the right array
+            let k = 0; //increments the orig array
         //for the length of the sub arrays:
             while(i < left.length && j < right.length){
                     // compare the same index number of the left array to the same index number of the right array. whichever is smaller overwrites the index in orig array.
