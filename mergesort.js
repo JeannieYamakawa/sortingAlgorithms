@@ -26,7 +26,7 @@ var sorted ={
             while(i < left.length && j < right.length){
                     // compare the same index number of the left array to the same index number of the right array. whichever is smaller overwrites the index in orig array.
                     if(left[i] <= right[j]){
-                        orig[k] = leftArr[i];
+                        orig[k] = left[i];
                         i++;
                     }
                     else{
